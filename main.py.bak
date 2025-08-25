@@ -33,7 +33,7 @@ import keyboard
 pytesseract.pytesseract.tesseract_cmd = r"C:\Program Files\Tesseract-OCR\tesseract.exe"
 
 # Configure the Gemini API key
-genai.configure(api_key="AIzaSyA1qfTDeVWhPreQwrd4WOPTfEYkDTOeXcM")
+genai.configure(api_key="Enter your API key here")
 
 # Initialize the model with safety settings
 model = genai.GenerativeModel('gemini-2.0-flash', safety_settings=[])

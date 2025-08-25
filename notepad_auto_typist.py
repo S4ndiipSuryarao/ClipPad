@@ -8,7 +8,7 @@ import pyperclip
 import google.genai as genai
 
 # --- CONFIG ---
-GEMINI_API_KEY = "AIzaSyA1qfTDeVWhPreQwrd4WOPTfEYkDTOeXcM"
+GEMINI_API_KEY = "Enter your API key here"
 MODEL_NAME = "gemini-2.5-flash"
 TYPE_DELAY = 0.05
 FOCUS_PAUSE = 0.15

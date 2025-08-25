@@ -20,7 +20,7 @@ from google import genai  # correct import for the new SDK
 pytesseract.pytesseract.tesseract_cmd = r"C:\Program Files\Tesseract-OCR\tesseract.exe"
 
 # Gemini API key (prefer env var; fallback to hardcoded if you insist)
-GEMINI_API_KEY = "AIzaSyA1qfTDeVWhPreQwrd4WOPTfEYkDTOeXcM"
+GEMINI_API_KEY = "Enter your API key here"
 MODEL_NAME = "gemini-2.0-flash"  # fast + capable
 
 # ---------- Windows click-through helpers ----------
